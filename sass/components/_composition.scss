@@ -1,7 +1,84 @@
 .composition {
-
   position: relative;
 
+  &__text {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-left: 15rem;
+    padding-top: 2rem;
+  }
+
+  &__shape-1 {
+    width: 7rem;
+    height: 7rem;
+    float: left;
+    background-color: rgb(72, 84, 83);
+    margin-left: 6rem;
+    clip-path: circle(50% at 50% 50%);
+  }
+
+  &__img-1 {
+  height: 100%;
+  }
+
+  &__1 {
+    margin-bottom: 6rem;
+  }
+
+  &__shape-2 {
+    width: 7rem;
+    height: 7rem;
+    float: left;
+    background-color: rgb(72, 84, 83);
+    margin-left: 6rem;
+    clip-path: circle(50% at 50% 50%);
+  }
+
+  &__img-2 {
+  height: 100%;
+  transform: translateX(1rem);
+  }
+
+  &__2 {
+    margin-bottom: 6rem;
+  }
+
+  &__shape-3 {
+    width: 7rem;
+    height: 7rem;
+    float: left;
+    background-color: rgb(72, 84, 83);
+    margin-left: 6rem;
+    clip-path: circle(50% at 50% 50%);
+  }
+
+  &__img-3 {
+  height: 100%;
+  }
+
+  &__3 {
+    margin-bottom: 6rem;
+  }
+
+  &__shape-4 {
+    width: 7rem;
+    height: 7rem;
+    float: left;
+    background-color: rgb(72, 84, 83);
+    margin-left: 6rem;
+    clip-path: circle(50% at 50% 50%);
+  }
+
+  &__img-4 {
+  height: 100%;
+  }
+
+  &__4 {
+    margin-bottom: 6rem;
+  }
+
+
+/*
   &_photo {
     width: 55%;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
@@ -41,5 +118,6 @@
 
   &:hover &_photo:not(:hover){
     transform: scale(0.9);
-  }
+  }*/
+
 }

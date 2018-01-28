@@ -202,36 +202,98 @@ body {
     margin-bottom: 1rem; }
 
 .composition {
-  position: relative; }
-  .composition_photo {
+  position: relative;
+  /*
+  &_photo {
     width: 55%;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
     border-radius: 2px;
     position: absolute;
     z-index: 10;
-    transition: all .2s; }
-    .composition_photo-p1 {
+    transition: all .2s;
+
+    &-p1 {
       left: 60%;
       top: -2rem;
       height: 15rem;
-      width: 7.5rem; }
-    .composition_photo-p2 {
+      width: 7.5rem;
+    }
+
+    &-p2 {
       left: 40%;
       top: 10rem;
       height: 13.5rem;
-      width: 7.5rem; }
-    .composition_photo-p3 {
+      width: 7.5rem;
+    }
+
+    &-p3 {
       left: 20%;
       top: 2rem;
       height: 18.5rem;
-      width: 7.5rem; }
-    .composition_photo:hover {
-      outline: 1rem solid #55c57a;
+      width: 7.5rem;
+    }
+
+    &:hover {
+      outline: 1rem solid $color-primary;
       transform: scale(1.05);
-      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
-      z-index: 20; }
-  .composition:hover .composition_photo:not(:hover) {
-    transform: scale(0.9); }
+      box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
+      z-index: 20;
+    }
+  }
+
+  &:hover &_photo:not(:hover){
+    transform: scale(0.9);
+  }*/ }
+  .composition__text {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-left: 15rem;
+    padding-top: 2rem; }
+  .composition__shape-1 {
+    width: 7rem;
+    height: 7rem;
+    float: left;
+    background-color: #485453;
+    margin-left: 6rem;
+    clip-path: circle(50% at 50% 50%); }
+  .composition__img-1 {
+    height: 100%; }
+  .composition__1 {
+    margin-bottom: 6rem; }
+  .composition__shape-2 {
+    width: 7rem;
+    height: 7rem;
+    float: left;
+    background-color: #485453;
+    margin-left: 6rem;
+    clip-path: circle(50% at 50% 50%); }
+  .composition__img-2 {
+    height: 100%;
+    transform: translateX(1rem); }
+  .composition__2 {
+    margin-bottom: 6rem; }
+  .composition__shape-3 {
+    width: 7rem;
+    height: 7rem;
+    float: left;
+    background-color: #485453;
+    margin-left: 6rem;
+    clip-path: circle(50% at 50% 50%); }
+  .composition__img-3 {
+    height: 100%; }
+  .composition__3 {
+    margin-bottom: 6rem; }
+  .composition__shape-4 {
+    width: 7rem;
+    height: 7rem;
+    float: left;
+    background-color: #485453;
+    margin-left: 6rem;
+    clip-path: circle(50% at 50% 50%); }
+  .composition__img-4 {
+    height: 100%; }
+  .composition__4 {
+    margin-bottom: 6rem; }
 
 .contact {
   width: 75%;
@@ -278,7 +340,8 @@ body {
   border-width: 3px;
   padding-top: 3rem;
   margin-top: 2rem;
-  padding-bottom: 40rem; }
+  padding-bottom: 40rem;
+  background-color: #f5f1db; }
 
 .section-contact {
   position: relative;

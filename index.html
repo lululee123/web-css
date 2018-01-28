@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="author" content="Lulu Lee">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link rel="stylesheet" href="css/style.css">
     		<link rel="icon" href="img/favicon-.ico">
     		<title>Lulu's website</title>
@@ -20,13 +21,15 @@
               <span class="heading-primary-main">About Me</span>
               <span class="heading-primary-sub">Welcome to my website</span>
             </h1>
-            <a href="#" class="btn btn-white btn-animated">Discover More</a>
+            <div id="btn">
+              <a href="#" class="btn btn-white btn-animated">Discover More</a>
+            </div>
           </div>
         </header>
         <main>
           <section class="section-about">
             <div class="u-center-text u-margin-botton-big">
-              <h2 class="heading-secondary">
+              <h2 class="heading-secondary section-about-link">
                 Brief Introduce
               </h2>
             </div>
@@ -34,7 +37,7 @@
               <div class="col-1-of-2">
                 <h3 class="heading-tertiary u-margin-botton-small">工作經驗</h3>
                 <p class="paragraph">
-                  大四下時進入趨勢科技實習，學習網頁自動化測試的，
+                  大四下時進入趨勢科技實習，學習網頁自動化測試的建立，
                 </p>
                 <h3 class="heading-tertiary u-margin-botton-small">學歷與特質</h3>
                 <p class="paragraph">
@@ -45,10 +48,37 @@
               </div>
               <div class="col-1-of-2">
                 <div class="composition">
-                  <img src="img/qa.png" alt="photo3" class="composition_photo composition_photo-p3">
-                  <img src="img/html.png" alt="photo1" class="composition_photo composition_photo-p1">
-                  <img src="img/js.png" alt="photo2" class="composition_photo composition_photo-p2">
-
+                  <div class="composition__1">
+                      <figure class="composition__shape-1">
+                        <img src="img/html.png" class="composition__img-1">
+                      </figure>
+                      <div class="composition__text">
+                        HTML
+                      </div>
+                  </div>
+                  <div class="composition__2">
+                    <figure class="composition__shape-2">
+                      <img src="img/js.png" class="composition__img-2">
+                    </figure>
+                    <div class="composition__text">
+                      JavaScript/React
+                    </div>
+                  </div>
+                  <div class="composition__3">
+                      <figure class="composition__shape-3">
+                        <img src="img/css.png" class="composition__img-3">
+                      </figure>
+                      <div class="composition__text">
+                        CSS/Sass
+                      </div>
+                  </div>
+                  <div class="composition__4">
+                    <figure class="composition__shape-4">
+                      <img src="img/selenium.png" class="composition__img-4">
+                    </figure>
+                    <div class="composition__text">
+                      Selenium/Git/Charles
+                    </div>
                 </div>
               </div>
             </div>
@@ -166,4 +196,9 @@
            Copyright © Lulu Lee All rights reserved
          </footer>
     </body>
+    <script>
+        $('#btn').click(function(){
+        $('html,body').animate({scrollTop:$('.section-about-link').offset().top},800);
+    });
+    </script>
 </html>

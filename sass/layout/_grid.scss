@@ -18,8 +18,9 @@
   }
 
   .col-1-of-3 {
-    width: calc((100%-#{$grid-horizontal}) / 3);
+    width: calc((60%-#{$grid-horizontal}) / 2);
     float: left;
+    margin-left: 13.5rem;
 
     &:not(:last-child) {
       margin-bottom: $grid-horizontal;

@@ -42,10 +42,16 @@
 
   &__picture {
     background-size: cover;
-    height: 12rem;
 
     &-1 {
       background-image: url(../img/youtube-icon.jpg);
+      height: 12rem;
+    }
+    &-2 {
+      background-image: url(../img/todo.png);
+      height: 7.5rem;
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
     }
   }
 

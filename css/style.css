@@ -200,48 +200,7 @@ body {
     margin-bottom: 1rem; }
 
 .composition {
-  position: relative;
-  /*
-  &_photo {
-    width: 55%;
-    box-shadow: 0 1.5rem 4rem rgba($color-black, .4);
-    border-radius: 2px;
-    position: absolute;
-    z-index: 10;
-    transition: all .2s;
-
-    &-p1 {
-      left: 60%;
-      top: -2rem;
-      height: 15rem;
-      width: 7.5rem;
-    }
-
-    &-p2 {
-      left: 40%;
-      top: 10rem;
-      height: 13.5rem;
-      width: 7.5rem;
-    }
-
-    &-p3 {
-      left: 20%;
-      top: 2rem;
-      height: 18.5rem;
-      width: 7.5rem;
-    }
-
-    &:hover {
-      outline: 1rem solid $color-primary;
-      transform: scale(1.05);
-      box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
-      z-index: 20;
-    }
-  }
-
-  &:hover &_photo:not(:hover){
-    transform: scale(0.9);
-  }*/ }
+  position: relative; }
   .composition__text {
     font-size: 1.6rem;
     font-weight: 700;
@@ -329,7 +288,7 @@ body {
   background-color: #f7f7f7;
   padding-top: 15rem;
   padding-left: 10rem;
-  padding-bottom: 40rem;
+  padding-bottom: 46rem;
   padding-right: 10rem;
   margin-top: -20vh; }
 

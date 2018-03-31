@@ -16,9 +16,7 @@
     "url": "https://github.com/lululee123/web-css/issues"
   },
   "homepage": "https://github.com/lululee123/web-css#readme",
-  "dependencies": {
-    "balanced-match": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "node-sass": "^4.7.2"
   }

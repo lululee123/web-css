@@ -29,6 +29,9 @@
       &-2 {
         background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark );
       }
+      &-3 {
+        background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark );		
+        }
     }
   }
 
@@ -52,6 +55,10 @@
       height: 7.5rem;
       margin-top: 2.5rem;
       margin-bottom: 2.5rem;
+    }
+    &-3 {
+      background-image: url(../img/taipei.jpg);
+      height: 12rem;
     }
   }
 
